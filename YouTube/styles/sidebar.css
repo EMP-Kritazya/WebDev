@@ -1,0 +1,56 @@
+.sidebar {
+  background-color: white;
+  width: 72px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  z-index: 200;
+}
+
+.sidebar-titles {
+  font-size: 10px;
+}
+
+.home,
+.explore,
+.subscriptions,
+.originals,
+.youtube-music,
+.library {
+  width: 24px;
+  margin-bottom: 8px;
+}
+
+.sidebar-elements {
+  height: 70px;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 1440px) {
+  .sidebar {
+    width: 20vw;
+    align-items: start;
+  }
+
+  .sidebar-elements {
+    margin-left: 30px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .sidebar-elements img {
+    margin-right: 30px;
+  }
+  .sidebar-elements p {
+    font-size: 18px;
+  }
+}
