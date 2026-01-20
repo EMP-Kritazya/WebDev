@@ -12,7 +12,6 @@
 }
 
 .left {
-  width: 100px;
   display: flex;
   align-items: center;
 }
@@ -26,6 +25,7 @@
 .Youtube-Logo {
   height: 20px;
   cursor: pointer;
+  /* flex: 0 0 200px; */
 }
 
 .middle {
